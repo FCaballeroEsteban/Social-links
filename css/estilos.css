@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    
+}
+
+.container{
+    top: 40px;
+    display: block;
+    width: 20%;
+    height: 60%;
+    background-color: rgb(28, 28, 28);
+    align-items: center;
+    justify-items: center;
+    border-radius: 5%;
+
+}
+
+
+.image-profile {
+    width: 100px;
+    height: 100px; 
+    border-radius: 50%; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    margin-top: 15px;
+}
+
+.image-profile img {
+    width: 100%; 
+    height: auto; 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.name-profile h2{
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name-profile h6{
+    color: rgb(58, 255, 58);
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.description-profile p{
+    margin-top: 30px;
+    color: white;
+   font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+
+.button-github {
+    background-color: rgb(68, 65, 65);
+    border-radius: 20px;
+    
+    
+    width: 70%;
+    
+   /*  
+    align-items: center;
+    justify-content: center; */
+}
+
+.button-github a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+    
+}
+
+.button-Linkedin{
+    background-color: rgb(68, 65, 65);
+    border-radius: 20px;
+    
+    width: 70%;
+}
+
+.button-Linkedin a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    align-items: center;
+}
+
+
+.button-github:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.button-Linkedin:hover{
+    background-color: black;
+}
