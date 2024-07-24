@@ -1,0 +1,15 @@
+@media (max-width: 991px){
+    .container{
+        width: 60%;
+        height: 60%;
+    }
+
+    .name-profile h2{
+        margin-top: 15px;
+    }
+
+    .image-profile{
+        margin-left: 60px;
+    }
+}
+    
